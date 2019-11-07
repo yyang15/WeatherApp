@@ -15,6 +15,7 @@ import org.greenrobot.eventbus.ThreadMode;
 
 public class MainActivity extends Activity {
     TextView temperatureView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -11,7 +11,6 @@ public class CurrentWeatherInfo {
     String cityName;
 
 
-
     public CurrentWeatherInfo(Clouds clouds, List<Weather> weathers, Main main, Wind wind, Coord coord, String cityName) {
         this.clouds = clouds;
         this.weathers = this.weathers;

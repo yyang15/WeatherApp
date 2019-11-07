@@ -22,11 +22,11 @@ import java.util.List;
 public class WeatherInfoUtil {
     final static ObjectMapper objectMapper = new ObjectMapper();
 
-    public static CurrentWeatherInfo toWeatherInfo(JSONObject jsonObject){
+    public static CurrentWeatherInfo toWeatherInfo(JSONObject jsonObject) {
         try {
             JSONArray weatherJsonArray = jsonObject.getJSONArray("weather");
             List<Weather> weatherList = new ArrayList<>();
-            for(int i = 0; i < weatherJsonArray.length(); i++){
+            for (int i = 0; i < weatherJsonArray.length(); i++) {
                 Weather weather = objectMapper.readValue(weatherJsonArray.get(i).toString(), Weather.class);
                 weatherList.add(weather);
             }
@@ -45,7 +45,7 @@ public class WeatherInfoUtil {
 
             String cityName = jsonObject.get("name").toString();
 
-            CurrentWeatherInfo weatherInfo = new CurrentWeatherInfo(clouds,weatherList,main,wind,coord,cityName);
+            CurrentWeatherInfo weatherInfo = new CurrentWeatherInfo(clouds, weatherList, main, wind, coord, cityName);
 
             return weatherInfo;
 

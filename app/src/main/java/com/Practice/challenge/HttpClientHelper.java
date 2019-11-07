@@ -20,7 +20,7 @@ public class HttpClientHelper {
     private final static String API_KEY = "64f7dbd5a9b577f25d17aa922f4f16ab";
     private final static String TAG = "HttpClientHelper";
 
-    public static JsonObjectRequest buildCurrentRequest(String city){
+    public static JsonObjectRequest buildCurrentRequest(String city) {
         String URL = HttpClientUtil.buildCurrentWeatherRequestQuery(baseUrl, city, API_KEY);
 
         JsonObjectRequest objectRequest = new JsonObjectRequest(
@@ -42,9 +42,9 @@ public class HttpClientHelper {
                         // render ui.
                     }
                 },
-                new Response.ErrorListener(){
+                new Response.ErrorListener() {
                     @Override
-                    public void onErrorResponse(VolleyError error){
+                    public void onErrorResponse(VolleyError error) {
                         Log.e("response fail", error.toString());
                     }
                 }

@@ -11,18 +11,18 @@ public class HttpClient {
     private static RequestQueue requestQueue = null;
     private static HttpClient client = null;
 
-    private HttpClient(Context context){
+    private HttpClient(Context context) {
         this.requestQueue = Volley.newRequestQueue(context);
     }
 
-    public static HttpClient getInstance(Context context){
-        if(client == null){
+    public static HttpClient getInstance(Context context) {
+        if (client == null) {
             client = new HttpClient(context);
         }
         return client;
     }
 
-    public void sendResquest(Request request){
+    public void sendResquest(Request request) {
         requestQueue.add(request);
     }
 
