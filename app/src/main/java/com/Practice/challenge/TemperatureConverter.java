@@ -1,4 +1,4 @@
-package com.twitter.challenge;
+package com.Practice.challenge;
 
 public class TemperatureConverter {
     /**

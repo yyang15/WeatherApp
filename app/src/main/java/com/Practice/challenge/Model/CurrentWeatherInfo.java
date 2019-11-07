@@ -1,19 +1,21 @@
-package com.twitter.challenge.Model;
+package com.Practice.challenge.Model;
 
-public class WeatherInfo {
+import java.util.List;
+
+public class CurrentWeatherInfo {
     Clouds clouds;
-    Weather weather;
-    Rain rain;
+    List<Weather> weathers;
+    Main main;
     Wind wind;
     Coord coord;
     String cityName;
 
 
 
-    public WeatherInfo(Clouds clouds, Weather weather, Rain rain, Wind wind, Coord coord, String cityName) {
+    public CurrentWeatherInfo(Clouds clouds, List<Weather> weathers, Main main, Wind wind, Coord coord, String cityName) {
         this.clouds = clouds;
-        this.weather = weather;
-        this.rain = rain;
+        this.weathers = this.weathers;
+        this.main = main;
         this.wind = wind;
         this.coord = coord;
         this.cityName = cityName;
@@ -27,21 +29,14 @@ public class WeatherInfo {
         this.clouds = clouds;
     }
 
-    public Weather getWeather() {
-        return weather;
+    public List<Weather> getWeathers() {
+        return weathers;
     }
 
-    public void setWeather(Weather weather) {
-        this.weather = weather;
+    public void setWeathers(List<Weather> weathers) {
+        this.weathers = weathers;
     }
 
-    public Rain getRain() {
-        return rain;
-    }
-
-    public void setRain(Rain rain) {
-        this.rain = rain;
-    }
 
     public Wind getWind() {
         return wind;
@@ -65,5 +60,13 @@ public class WeatherInfo {
 
     public void setCityName(String cityName) {
         this.cityName = cityName;
+    }
+
+    public Main getMain() {
+        return main;
+    }
+
+    public void setMain(Main main) {
+        this.main = main;
     }
 }

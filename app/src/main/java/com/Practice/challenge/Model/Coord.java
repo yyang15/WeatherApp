@@ -1,4 +1,4 @@
-package com.twitter.challenge.Model;
+package com.Practice.challenge.Model;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -11,25 +11,30 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "lat"
 })
 public class Coord {
-    public float getLon() {
-        return lon;
-    }
-
-    public void setLon(float lon) {
-        this.lon = lon;
-    }
 
     @JsonProperty
     float lon;
     @JsonProperty
+    float lat;
+
+    @JsonProperty("lon")
+    public float getLon() {
+        return lon;
+    }
+    @JsonProperty("lon")
+    public void setLon(float lon) {
+        this.lon = lon;
+    }
+
+    @JsonProperty("lat")
     public float getLat() {
         return lat;
     }
-    @JsonProperty
+    @JsonProperty("lat")
     public void setLat(float lat) {
         this.lat = lat;
     }
 
-    @JsonProperty
-    float lat;
+
+
 }
