@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_b7efa54d0ea224d14b0d26fddccc2d4572527146.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_973178c2f73625db35c411b53f4780953c669e66.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_8bffe32d1f978359142541851d20e259f63ff638.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_f3c68943b053b0897b5673e2e3083442616e77f4.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_ed95b1f7a8c3f7bc6792f55a7f9c788fb848882e.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_ffb2be9699e3c9f2c6c65ae436305ee2ed5fc5fd.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_4798a40453c47ad6ed8f9bee47f7e1f6342dcce2.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_d9f02b8a3864e7b719bdef76f67af7e3828e014a.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_c931f542943e398dab353d559f10486275c11abe.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_82fc22daed5b4369b7147d67a6234d006a76b8aa.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_64dc8489dd192064ce672b162e398ad5414be2b4.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_6967b847b195ffad0893703466a298296e3982b4.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_7e8fc79e21d68e07f723b00462d8b7444ddea15b.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_72f8ec4802fe1cb5f2a6168507584c1e94076ac9.jar" />
+    </item>
+    <item
+        jar="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/yuekunyang/Downloads/TwitterCodeChallenge/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_e8bde4c242ff6b013f6e1ecdde1b69cb99540383.jar" />
+    </item>
+
+</items>
