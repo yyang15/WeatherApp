@@ -3,6 +3,7 @@ package com.Practice.challenge;
 import android.util.Log;
 
 import com.Practice.challenge.Model.CurrentWeatherInfo;
+import com.Practice.challenge.Model.WeatherForecastInfo;
 import com.Practice.challenge.Utils.HttpClientUtil;
 import com.Practice.challenge.Utils.WeatherInfoUtil;
 import com.android.volley.Request;
@@ -51,9 +52,9 @@ public class HttpClientHelper {
         );
         return objectRequest;
     }
-/*
+
     public static JsonObjectRequest buildForecastRequest(String city, int cnt){
-        String URL =  baseUrl + url;
+        String URL =  HttpClientUtil.buildForecastWeatherRequestQuery(baseUrl,city,API_KEY,cnt);
 
         JsonObjectRequest objectRequest = new JsonObjectRequest(
                 Request.Method.GET,
@@ -62,9 +63,10 @@ public class HttpClientHelper {
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        Log.i("response", response.toString());
-                        CurrentWeatherInfo info = WeatherInfoUtil.toWeatherInfo(response);
-                        EventBus.getDefault().post(info);
+                        Log.i(TAG, response.toString());
+//                        CurrentWeatherInfo info = WeatherInfoUtil.toWeatherInfo(response);
+                        WeatherForecastInfo weatherForecastInfo = new WeatherForecastInfo(0);
+                        EventBus.getDefault().post(weatherForecastInfo);
                         // render ui.
                     }
                 },
@@ -78,5 +80,5 @@ public class HttpClientHelper {
         return objectRequest;
     }
 
- */
+    /**/
 }
